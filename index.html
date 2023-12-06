@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css.map"> -->
+    <link rel="stylesheet" href="assets/css/homepage.css">
+    <title>Shaza Elali</title>
+    <script src="https://kit.fontawesome.com/0ae08a6044.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+   <div class="container">
+    <nav>
+      <img src="assets/images/logo.png" width="100" height="100"> 
+      <ul id="sidemenu">
+        <li>
+          <a href="#"> Home</a>
+        </li>
+        <li>
+          <a href="#">About </a>
+        </li>
+        <li>
+          <a href="#">Services </a>
+        </li>
+        <li>
+          <a href="#">Portfolio </a>
+        </li>
+        <li>
+          <a href="#">Contact </a>
+        </li>
+        <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+    </nav>
+    <div class="header_text">
+      
+      <h1>Hello </h1>
+      <p>I'm <span> WEB DEVELOPER  </span><br> Shaza EL-ALI</p> 
+    </div>
+   </div>
+ </div>
+ <div id="about">
+  <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="assets/images/backgroundImage.jpg" alt="#">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me </h1>
+          <p>I passionate and hard-working Front-End developer, always eager to level up my skills and work on new challenges.
+            I pride myself on my ability to keep working hard and never stop learning
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link"  onclick="opentab('skills')">
+              Skills
+            </p>
+            <p class="tab-links"  onclick="opentab('experience')">
+              Experience
+            </p>
+            <p class="tab-links"  onclick="opentab('education')">
+              Education
+            </p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span> Programming Languages </span>
+                  <br> <p> HTML -CSS &nbsp;  Java (oop) &nbsp;
+                    Python  &nbsp; Robot Framework &nbsp; JavaScript PHP
+                    &nbsp; MySQL
+                  </p> 
+                </li>
+                <li><span> Tools </span><br>Postman &nbsp; GitHub &nbsp; Bootstrap</li> 
+                <li><span> Languages </span>
+                  <br>Arabic (Native) 
+                  <br> French (Proficient) + certificate Delf b1  
+                  <br> English (Pre-intermediate)
+                </li>
+              </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <!-- <li><span> Self lerner  </span><br> Bachelor's Degree in computer science at CNAM University </li>
+              <li><span> Web Development</span><br>Desgining web/App interfaces</li> 
+              <li><span> Web Development</span><br>Desgining web/App interfaces</li> -->
+            </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span> Nov 2019 - Mar 2023 </span><br> Bachelor's Degree in computer science at CNAM University</li>
+            <li><span> Mar 2023 - Present  </span><br> Master's Degree in computer science at CNAM University</li> 
+
+          </ul>
+      </div>
+        </div>
+      </div>
+  </div>
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">
+        My Services
+      </h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2> Web Desgin</h2>
+           <p>this is my web desgin content this is my web desgin content this is my web desgin content this is my web desgin content </p>
+           <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-laptop"></i>
+            <h2> Web Development</h2>
+             <p>this is my web desgin content this is my web desgin content this is my web desgin content this is my web desgin content </p>
+             <a href="#">Learn more</a>
+            </div>
+      </div>
+    </div>
+  </div>
+
+ </div>
+ <!-- ------------------                  My Work              ------------------------------------------------------------- -->
+ <div id="portfolio">
+   <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="assets/images/work-3.png" alt="#">
+        <div class="layer">
+          <h3>Social Media</h3>
+          <p>The app connects you to the talented people around the world</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="assets/images/work-3.png" alt="#">
+        <div class="layer">
+          <h3>Social Media</h3>
+          <p>The app connects you to the talented people around the world</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="assets/images/work-3.png" alt="#">
+        <div class="layer">
+          <h3>Social Media</h3>
+          <p>The app connects you to the talented people around the world</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+   </div>
+ </div>
+ <!-- -------------------------- Contect as --------------- -->
+ <div id="contact-as">
+     <div class="container">
+      <div class="row">
+        <div class="contact-left">
+           <h1 class="sub-title"> Contact Me </h1>
+           <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+           <p><i class="fa-solid fa-square-phone"></i> +961 70437754 </p>
+           <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-solid fa-code"></i></a>
+          </div>
+          <a href= "assets/images/shazaBackgroundc.jpg" download class="btn btn2">Download Cv</a>
+        </div>
+        <div class="contact-right">
+          <form >
+            <input type="text" name="Name" placeholder="your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+     </div>
+     
+ </div>
+ <script >
+  let tablinks = document.getElementsByClassName("tab-links");
+  let tabcontents = document.getElementsByClassName("tab-contents");
+  function opentab (tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+      
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab")
+  }
+ </script>
+ <script>
+  
+   var sideMenu = document.getElementById("sidemenu");
+   console.log(sideMenu);
+   function openMenu(){
+    sideMenu.style.right="0";
+   }
+   function closeMenu(){
+    sideMenu.style.right="-450px";
+   }
+ </script>
+ 
+</body>
+</html>
