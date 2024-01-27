@@ -90,7 +90,7 @@ nav ul li a:hover::after {
 
 /* ------------- About ----------- */
 #about {
-   padding: 40px 0;
+   padding: 40px 10px;
    color: #ababab;
 
 }
